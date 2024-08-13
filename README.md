@@ -1,2 +1,2 @@
-Main PCB for brachi
+Main PCB for brachi\n
 File named kicad is a mess
