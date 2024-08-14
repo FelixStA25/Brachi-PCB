@@ -3,7 +3,15 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "5f03be96-74fe-4c06-80f9-3781f1b12b86")
-	(paper "A4")
+	(paper "A")
+	(title_block
+		(title "Brachi PCB")
+		(date "2024-08-14")
+		(rev "1.0")
+		(company "McGill University Physics Department")
+		(comment 1 "McGill Radio Lab")
+		(comment 2 "Felix St-Amour & Eamon Egan")
+	)
 	(lib_symbols
 		(symbol "Device:Battery"
 			(pin_numbers hide)
@@ -2365,7 +2373,7 @@
 		(uuid "039a925f-be50-4c6a-8b30-bc9da6930f6d")
 	)
 	(junction
-		(at 212.09 139.7)
+		(at 212.09 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "139b7619-1f12-4239-ab18-acb32e8f4313")
@@ -2809,13 +2817,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 128.27) (xy 212.09 128.27)
+			(xy 212.09 128.27) (xy 212.09 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4be38ba9-fec4-4aed-8b14-067d1ea1907a")
+		(uuid "463e5825-907e-463c-8e1b-1e7b93964b57")
 	)
 	(wire
 		(pts
@@ -2883,7 +2891,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 139.7) (xy 196.85 139.7)
+			(xy 190.5 144.78) (xy 196.85 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3109,6 +3117,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 128.27) (xy 207.01 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f01a0dd-3662-4757-ae2b-5479a47a1c4d")
+	)
+	(wire
+		(pts
 			(xy 190.5 128.27) (xy 196.85 128.27)
 		)
 		(stroke
@@ -3228,17 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 128.27) (xy 212.09 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0255a5b-871e-46da-b154-d4d9186ca89b")
-	)
-	(wire
-		(pts
-			(xy 190.5 139.7) (xy 190.5 137.16)
+			(xy 190.5 144.78) (xy 190.5 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3259,7 +3267,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 139.7) (xy 207.01 139.7)
+			(xy 212.09 144.78) (xy 207.01 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3406,6 +3414,86 @@
 		)
 		(uuid "f9e3b179-cf21-4b07-a4cf-d3898a1461ca")
 	)
+	(text "Micro-SD socket module"
+		(exclude_from_sim no)
+		(at 128.016 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "207ae74c-8334-447f-8b2b-7ffe0ae48f85")
+	)
+	(text "ESP32 MCU Module"
+		(exclude_from_sim no)
+		(at 184.658 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2777a571-7044-466f-bcf4-c0c54bd03ad4")
+	)
+	(text "3 x AA"
+		(exclude_from_sim no)
+		(at 208.534 140.208 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37470520-4cd6-4b5c-a397-5dc445d38b02")
+	)
+	(text "(use only one)"
+		(exclude_from_sim no)
+		(at 109.474 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54047d71-148f-43a7-b0ac-0912fc92b1b1")
+	)
+	(text "3 x AA"
+		(exclude_from_sim no)
+		(at 208.534 123.952 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e9627bf-7df6-4a9f-8178-002d4beb6728")
+	)
+	(text "Micro-SD Socket"
+		(exclude_from_sim no)
+		(at 94.234 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d0fd7ec-7685-49cd-8535-1a301ae93fda")
+	)
+	(text "Ultrasonic Rangefinder"
+		(exclude_from_sim no)
+		(at 51.308 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8417423f-ca44-47dc-b509-e2268fa8fb01")
+	)
+	(text "Accelerometer Module"
+		(exclude_from_sim no)
+		(at 92.71 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e522e890-7a9f-4d27-bf87-a03f16b94820")
+	)
 	(label "MISO"
 		(at 137.16 66.04 0)
 		(fields_autoplaced yes)
@@ -3523,7 +3611,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 139.7 0)
+		(at 212.09 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3532,7 +3620,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c1fee41-7a29-45b2-b5d9-5e25b7160b96")
 		(property "Reference" "#PWR05"
-			(at 212.09 146.05 0)
+			(at 212.09 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3629,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 144.78 0)
+			(at 212.09 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 139.7 0)
+			(at 212.09 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 139.7 0)
+			(at 212.09 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3655,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 139.7 0)
+			(at 212.09 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4169,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 201.93 139.7 90)
+		(at 201.93 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4090,7 +4178,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a2438c9-7bbf-4dc1-8c44-534716a39746")
 		(property "Reference" "BT2"
-			(at 201.3585 132.08 90)
+			(at 201.3585 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4186,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 201.3585 134.62 90)
+			(at 201.3585 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +4194,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 200.406 139.7 90)
+			(at 200.406 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4203,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.406 139.7 90)
+			(at 200.406 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +4212,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 201.93 139.7 0)
+			(at 201.93 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
